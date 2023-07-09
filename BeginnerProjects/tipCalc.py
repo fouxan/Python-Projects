@@ -1,0 +1,5 @@
+bill=float(input("what is the total bill?"))
+people=float(input("How many people are splitting the bill?"))
+tip=float(input("How much percent do you want to tip"))
+perp= (bill/people)+(bill*tip*0.01/people)
+print("Every person should pay:"+str(perp))
